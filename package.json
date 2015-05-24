@@ -1,0 +1,41 @@
+{
+  "name": "plugin-ts-jsx",
+  "version": "1.0.0",
+  "description": "Typescript JSX Plugin",
+  "main": "ts-jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shearerbeard/plugin-tsx-jsx.git"
+  },
+  "keywords": [
+    "jspm",
+    "jsx",
+    "typescript",
+    "react",
+    "loader",
+    "plugin"
+  ],
+  "author": "Mike Shearer <shearerbeard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shearerbeard/plugin-tsx-jsx/issues"
+  },
+  "homepage": "https://github.com/Shearerbeard/plugin-tsx-jsx",
+  "devDependencies": {
+    "jspm": "^0.15.6"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "escape-string-regexp": "npm:escape-string-regexp@^1.0.3",
+      "react-tools": "npm:react-tools@^0.14.0-alpha2"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
